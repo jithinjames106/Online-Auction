@@ -1,0 +1,236 @@
+body
+{
+    font-family: Franklin Gothic Medium;
+}
+body,p,a,h1,h2,h3,h4,h5,h6,ul,li,div,span{
+                margin:0px;
+            }
+            hr{
+                color:#727272;
+            }
+            body{
+                background-color:#ffffff ;
+            }
+            #top{
+                height:50px;
+                //background-color: #0088ff;
+                background-image: url("images/mainnav-hov.jpg");
+
+
+            }
+            #top1{
+                margin-left:1000px;
+                font-size: 15px;
+
+            }
+            #top1 a{
+
+                text-decoration: none;
+                color:#ffffff;
+                margin-left:30px;
+            }
+            #top1 a:hover{
+                color:#0088ff;
+            }
+            .title{
+
+                font-size:50px;
+                margin:10px 0px 0px 70px;
+
+            }
+            #container{
+                min-height: 200px;
+                width:1100px;
+
+                margin:0 auto;
+               // background-color:#cccccc ;
+                //border-top: 2px solid #717171;
+                border-radius:20px;
+                margin-top:10px;
+            }
+            #header1{
+                background-image: url("images/headerbackground.png");
+            }
+            #menu1 ul li{
+                float:left;
+                margin:0px 0px 0px 10px; 
+                padding:10px 12px 0px 12px;
+                border-radius:10px;
+            }
+            #menu1 ul li a{
+                text-decoration:none;
+                font-size:18px;
+                color:#545151;
+            }
+            #menu1 ul{
+                list-style: none;
+            }
+            #menu1 ul li:hover {
+                background-image: url("images/moduleheaders.jpg");
+                height:41px;
+                
+            }
+            #menu1 ul li:hover a{
+                color:#0088ff;
+            }
+            #slidecontainer{
+               // min-height: 405px;
+                width:1100px;
+
+                margin:0 auto;
+                //background-color:#ebebeb ;
+                //border-top: 2px solid #717171;
+                //border-radius:20px;
+                margin-top:10px;
+            }
+            #menu1{
+                height:50px;
+              //  background-image: url("images/mainnav-hov.jpg");
+                border-radius:10px;
+
+
+            }
+            #slider{
+
+                height:338px;
+                background-color: #5e4646;
+
+            }
+            contentFront{
+                width:300px;
+                margin:0 auto;
+                margin-top:30px;
+                padding-top: 20px;
+                background-image: url("images/bac.png");
+                background-repeat: repeat;
+/*                background-color: #ebebeb;*/
+                //border-radius: 15px; 
+            }
+            #content{
+                min-height:605px;
+                width:1100px;
+                margin:0 auto;
+                //margin-top:30px;
+                padding-top: 20px;
+                //background-color: #ebebeb;
+                border-radius: 15px;
+               
+            }
+            #content_a{
+               // min-height:500px;
+/*                width:1100px;
+                margin:0 auto;
+                margin-top:30px;
+                padding-top: 20px;
+                //background-color: #ebebeb;
+                border-radius: 15px;*/
+                display:none;
+               
+            }
+            #content1{
+               // min-height:500px;
+                width:1100px;
+                margin:0 auto;
+                margin-top:30px;
+                padding-top: 20px;
+                //background-color: #ebebeb;
+                border-radius: 15px;
+                display:none;
+               
+            }
+            #content1_a{
+               // min-height:500px;
+                width:1100px;
+                margin:0 auto;
+                margin-top:30px;
+                padding-top: 20px;
+                //background-color: #ebebeb;
+                border-radius: 15px;
+                display:block;
+               
+            }
+            .blocks{
+                height:390px;
+                width:220px;
+               // border-radius:10px;
+               // border:1px solid #545151;
+                margin-left: 39px;
+                margin-top:25px;
+                margin-bottom:10px;
+                //padding:5px;
+                float:left;
+                 
+
+            }
+            .blocks1{
+                height:310px;
+                width:200px;
+                //border-radius:10px;
+               // border:1px solid #545151;
+                margin-left: 99px;
+                margin-top:25px;
+                margin-bottom:10px;
+                //padding:5px;
+                float:left;
+                 
+
+            }
+            #footer{
+                height:50px;
+                background-image: url("images/mainnav.jpg");
+                margin-top:10px;
+                clear:left;
+            }
+            .formcontent{
+                margin-top:50px;
+                margin-left:200px;
+            }
+            input[type=text],[type=password],[type=date],[type=time],[type=submit],[type=number]{
+                height:25px;
+                width:300px;
+                border:1px solid #0088ff;
+                border-radius:3px;
+                margin:5px;
+               // background-color:#0088ff;
+            }
+            select{
+                height:25px;
+                width:300px;
+                border:1px solid #0088ff;
+                border-radius:3px;
+                margin:5px;
+            }
+            textarea{
+                height:100px;
+                width:300px;
+                border:1px solid #0088ff;
+                border-radius:3px;
+                margin:5px;
+            }
+            #two{
+                visibility:hidden;
+            }
+            #one{
+                display:inline;
+            }
+            #q{
+                 visibility:hidden;
+            }
+            .dat{
+                color:#0088ff;
+                font-size:19px;
+                //background-color: #0088ff;
+                margin:30px 0px 35px 15px;
+                width:190px;
+            }
+            .imgg{
+                margin:10px 10px 10px 40px;
+                height:140px; 
+                width:140px;
+               // border-radius:30px;
+                
+            }
+            #message{
+                margin-left:450px;
+                color:red;
+            }
